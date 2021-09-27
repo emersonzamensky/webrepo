@@ -1,0 +1,24 @@
+h1{
+  font-size: 50px;
+  font-family: "Avantgarde";
+  color: #f9e076;
+  text-align: center;
+  border-style: solid;
+  border-color: f9f5ec ;
+}
+body{
+  font-family: helvetica;
+  background-color: #ffb347;
+  color: #f9f5ec;
+  text-align: center;
+}
+img {
+  width: 25vw;
+  border-style: solid;
+  border-color: f9f5ec ;
+  text-align: center;
+}
+form{
+  margin-left: 21px;
+  font-size: 4vw;
+}
