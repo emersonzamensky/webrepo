@@ -1,0 +1,31 @@
+h1{
+  font-size: 20px;
+  font-family: "Avantgarde";
+  color: #fe7f9c;
+  text-align: center;
+}
+h2{
+  font-size: 50px;
+  font-family: "Avantgarde";
+  color: #fcd535;
+  text-align: center;
+  border-style: solid;
+  border-color: #fe7f9c ;
+  border-image: <img src="profile.JPG" alt="Emerson Zamensky"/><br>;
+}
+body{
+  font-family: helvetica;
+  background-color: #ffb347;
+  color: #fe7f9c;
+  text-align: center;
+}
+img {
+  width: 25vw;
+  border-style: solid;
+  border-color: #fcd353 ;
+  text-align: center;
+}
+form{
+  margin-left: 21px;
+  font-size: 4vw;
+
