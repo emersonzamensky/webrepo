@@ -1,0 +1,58 @@
+#quote{
+  background-color: #00eaff;
+  padding: 20px 40px 60px 40px;
+  margin: 30vh 20vw;
+  font-family: Arial;
+  filter: drop-shadow(3px 3px 4px rgba(0,0,0,.5));
+  border-radius: 10px;
+}
+
+#qtext{
+  color: #a32fde;
+  margin-bottom: 20px;
+}
+
+body{
+  background-color: lightpink;
+}
+
+button{
+  float: right;
+  padding: 8px 40px;
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  background-color:  #a32fde;
+  color: #fff;
+  border-radius: 15px;
+ 
+}
+
+button:hover{
+  border: 3px white solid;
+}
+
+button:active{
+  background-color: #a32fde;
+}
+
+#flex{
+  display: flex;
+  width: auto;
+  margin: 10px 20vw;
+}
+
+.flexitem{
+  flex-grow: 2;
+  margin-left: 10px;
+
+}
+
+.social{
+  width: 10vw;
+  min-width: 20px;
+  border-style: solid;
+  border-color: black;
+  margin:auto;
+  display:block
