@@ -1,0 +1,54 @@
+h1{
+  background-color: #ffd700;
+  font-family: garamond ;
+  border-radius: 10px;
+  border-color:  black;
+  text-align: center;
+  font-size: 50px;
+}
+
+body{
+  background-color: #d21404;
+}
+
+button{
+  float: center;
+  padding: 8px 40px;
+  font-family: garamond;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+ 
+}
+
+button:hover{
+  border: 3px #ffd700;
+}
+
+button:active{
+  background-color: white;
+}
+
+#options{
+  align-content: center;
+  display: flex;
+  margin: 10px 20vw;
+}
+
+.pics{
+  flex-grow: 10;
+  margin-left: 35px;
+  margin-right: 35px;
+
+}
+
+.balloon{
+  margin-right:  auto;
+  margin-left:  auto;
+  width: 50%;
+  height:  auto;
+  min-width: 100%;
+  display:block
