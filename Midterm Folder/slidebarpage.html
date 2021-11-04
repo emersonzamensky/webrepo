@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Midterm Slidebar Page</title>
+  <link rel="stylesheet" href="slidebar.css">
+</head>
+<body>
+ 
+<section>
+<div class="foof">
+Let's take some time to be mindful by checking in your self. Close your eyes, take a few deep breaths, and utilize the slide bars below.
+</div>
+</section>
+
+<section>
+
+<section>
+<div class="foofy">
+How out of control to things feel right now?
+</div>
+</section>
+
+<section>
+<div class="slidebar">
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+</div>
+</section>
+
+<section>
+<div class="flunky">
+What's your stress level right now?
+</div>
+</section>
+
+<section>
+<div class="slidebar2">
+  <input type="range" min="1" max="100" value="50" class="slider2" id="myRange">
+</div>
+</section>
+
+<div class="flep">
+How happy/content are you in this moment?
+</div>
+
+<div class="slidebar3">
+  <input type="range" min="1" max="100" value="50" class="slider3" id="myRange">
+</div>
+
+</section>
+
+<section>
+  <div>
+<a href='index.html'><button class="homebutton">Back to Home</button> </a>
+  </div>
+</section>
+
+<img src="heart.png" alt="heart background">
+
+
+<script>
+
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value; 
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+
+</script>
+
+</body>
+</html>

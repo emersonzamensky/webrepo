@@ -1,0 +1,63 @@
+body {
+  background-color: #efbad6;
+  font-family: 'Lobster Two', cursive;
+  color: #dadafc;
+  text-align: left;
+  font-size: 25px;
+  line-height: 80px;
+
+}
+
+h1 {
+  color: #dadafc;
+  text-align: center;
+  font-size: 35px;
+  line-height: 5px;
+}
+
+h2{
+background-color: white;
+color: #dadafc;
+text-align: center;
+font-size: 60px;
+letter-spacing: 20px;
+ border-style: solid;
+ border-color: black;
+}
+
+img{
+	width: 700px;
+	height: auto;
+	position: fixed;
+	top: 300px;
+	left: 400px;
+}
+
+ul {
+  background: url(colors.jpg);
+ background-repeat: no-repeat;
+ background-size: auto;
+  color: black;
+}
+
+.homebutton {
+  background-color: #ffd6aa;
+  font-family: 'Lobster Two', cursive;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  position: fixed;
+  right: 43%;
+  top: 700px;
+}
+
+.homebutton:hover {
+  background-color: #ffd6aa;
+  color: white;
+}  
+
+
+

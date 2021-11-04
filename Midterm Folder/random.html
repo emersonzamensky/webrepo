@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Random Page</title>
+  <link rel="stylesheet" href="random.css">
+</head>
+<body>
+
+<section> 
+<h1> Let's learn something new and stay motivated. </h1>
+</section>
+ 
+<section id="fact">
+    <p id="ftext">Fact of the day!</p>
+    <button id="fbutton">New Fact</button>
+  </section>
+
+<section id="quote">
+    <p id="qtext">Quote of the day!</p>
+    <button id="qbutton">New Quote</button>
+  </section>
+
+  <script>
+  const facts = ["The first person convicted of speeding was going eight mph", "You lose up to 30 percent of your taste buds during flight", "Only two mammals like spicy food: humans and the tree shrew", "Marie Curie is the only person to earn a Nobel prize in two different sciences", "The English word with the most definitions is 'set'", "The longest wedding veil was the same length as 63.5 football fields", "2000 years ago, the total weight of ants on earth equaled the total weight of people.", "There are 293 ways to make change for a dollar"];
+  factCount = 0;
+  document.getElementById('fbutton').addEventListener("click", newFact);
+  function newFact(){
+    document.getElementById("ftext").innerHTML = facts[factCount];
+    alert("clicked");
+    if(factCount>=(facts.length-1)){
+      factCount = 0;
+    }else{
+      factCount +=1;
+    }
+  }
+
+  const quotes = ["If life were predictable it would cease to be life, and be without flavor- Eleanor Roosevelt", "The big lesson in life, baby, is never be scared of anyone or anything- Frank Sinatra", "Curiosity about life in all of its aspects, I think, is still the secret of great creative people.- Leo Burnett", "Life is like riding a bicycle. To keep your balance, you must keep moving- Albert Einstein", "Live for each second without hesitation.- Elton John", "Life is really simple, but men insist on making it complicated.- Confusious", "Life is a succession of lessons which must be lived to be understood.- Helen Keller", "Life is a flower of which love is the honey.- Victor Hugo"];
+  quoteCount = 0;
+  document.getElementById('qbutton').addEventListener("click", newQuote);
+  function newQuote(){
+    document.getElementById("qtext").innerHTML = quotes[quoteCount];
+    alert("clicked");
+    if(quoteCount>=(quotes.length-1)){
+      quoteCount = 0;
+    }else{
+      quoteCount +=1;
+    }
+  }
+
+</script>
+
+</body>
+
+</html>
