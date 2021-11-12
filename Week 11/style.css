@@ -1,0 +1,106 @@
+#welcome h1{
+  z-index:1;
+  position: absolute;
+  margin-top:450px;
+  margin-left: 40px;
+  margin-right: 100px;
+  font-weight: 600;
+  font-size: 70px;
+  font-family: 'Lobster Two', cursive;
+  color: #9bc472;
+  border-color: #9bc472 ;
+  border-width: 25px;
+}
+
+
+body{
+  margin: auto 20vw auto 20vw;
+  margin-bottom: 100px;
+  background-color: #cbf6db;
+}
+
+#welcome img{
+  width: 100%;
+  height:600px;
+  object-fit: cover;
+  border-color: #9bc472 ;
+  border-width: 25px;
+
+}
+
+.katie img{
+  width: 250px;
+  height:250px;
+  object-fit: cover;
+  border-radius: 1000px;
+  border-color: #9bc472 ;
+}
+
+.katie:nth-child(2) img{
+  object-position: 0px 0px;
+  border-color: #9bc472 ;
+  border-width: 25px;
+}
+
+.katie:nth-child(3) img{
+  object-position: 0px 0px;
+  border-color: #9bc472 ;
+}
+.katie{
+  flex-grow:1;
+  text-align: center;
+  border-color: #9bc472 ;
+}
+
+#kate{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+nav{
+  display:flex;
+  width: 50vw;
+  justify-content: right;
+  flex-wrap: wrap;
+  margin: 30px auto 30px calc(100% - 50vw);
+}
+
+
+h1{
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+
+}
+
+
+p{
+  font-family: arial;
+  color: darkgray;
+}
+
+#body h2{
+  font-size: 40px;
+  font-family: 'Lobster Two', cursive;
+  color: #f5beb4;
+}
+
+h4{
+  font-family: arial;
+}
+
+h3{
+  color: #9bc472;
+  font-family: 'Lobster Two', cursive;
+}
+
+#about, #kathleen h2, #abouther{
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: #ffdfdf;
+}
+
