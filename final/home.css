@@ -1,0 +1,68 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.img1 { background-image: url("mountains.jpg"); }
+.img2 { background-image: url("collage.jpg"); 
+-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.img3 { background-image: url("planets.png"); }
+.img4 { background-image: url("window.jpg"); 
+-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.img5 { background-image: url("swirls.jpg"); }
+.img6 { background-image: url("collage2.jpg");
+-webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+
+.text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Ranchers', cursive;
+
+}
+.menu { 
+ background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  outline: none;
+  font-size: 20px;
+  border: 5px solid #f1f1f1;
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Hammersmith One', sans-serif;
+}

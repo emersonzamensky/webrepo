@@ -1,0 +1,46 @@
+h1 {
+  font-size: 80px;
+  word-break: break-all;
+  font-family: 'Ranchers', cursive;
+  color: #fe7f9c
+}
+
+body {
+  background-color: #fdbb6b;
+}
+
+img{
+  width: 75%;
+  border-color: #fcd535;
+  border-radius: 20px;
+align-content: center;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #fdf38a;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #fe7f9c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.button:hover {background-color: lightgray}
+
+.button:active {
+  background-color: lightgray;
+  box-shadow: 0 3px lightgray;
+  transform: translateY(4px);
+}
