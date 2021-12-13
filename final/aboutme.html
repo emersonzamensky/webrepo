@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lobster+Two&family=Ranchers&family=Yuji+Syuku&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lobster+Two&family=Yuji+Syuku&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aboutme.css">
+<div class="header">
+  <div class="centered">What do you need to know?</div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <p>Hi!! My name is Emerson. Long story short, I was born in Maryland in 1999 and I lived there until age 13, when I moved to Highlands Ranch, Colorado. I then moved to Boulder to attend the University of Colorado, Boulder where I am currently majoring in Creative Technology and Design and minoring in Ecology and Evolutionary Biology. I am also the co-president of the Herd Leadership Council, work at the Environmental Center, and play a lot of intramural sports. Outside of school and work, I enjoy spending time with my family and friends and doing any outdoor activity, especially hiking and snowboarding. I love living in Colorado and am so happy to be a part of the CTD program here. </p>
+    </div>
+    <div class="card">
+      <h2>Some moments from my silly little life</h2>
+      <div class="img" style="height:500px; width: 875px;"><div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 10</div>
+  <img src="img1.jpg" style="height:500px; width: 875px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 10</div>
+  <img src="img2.jpg" style="height:500px; width: 875px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 10</div>
+  <img src="img3.jpg" style="height:500px; width: 875px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 10</div>
+  <img src="img4.jpg" style="height:500px; width: 875px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 10</div>
+  <img src="img5.jpg" style="height:500px; width: 875px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 10</div>
+  <img src="img6.jpg" style="height:500px; width: 875px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 10</div>
+  <img src="img7.jpg" style="height:500px; width: 875px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 10</div>
+  <img src="img8.jpg" style="height:500px; width: 875px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 10</div>
+  <img src="img9.jpg" style="height:500px; width: 875px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 10</div>
+  <img src="img10.jpg" style="height:500px; width: 875px">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+</div>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <div class="img" ><img src="portrait.jpg" style="height:130px; width: 130px"></div>
+    </div>
+    <div class="card">
+      <h3>Favorite Music</h3>
+      <div class="img"><img src="gothbabe.png" style="height:130px; width: 130px"></div><br>
+      <div class="img"><img src="dreamland.png" style="height:130px; width: 130px"></div><br>
+      <div class="img"><img src="aa.png" style="height:130px; width: 130px"></div>
+    </div>
+    <div class="card">
+      <h3>Contact Information</h3>
+      <p> Email: emza6547@colorado.edu <br> Phone: 240-575-4477 <br> Instagram: <a href="https://www.instagram.com/emersonzamensky/" style="color: white; text-decoration: underline;">@emersonzamensky</a> </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <a href='home.html'><button class="button">Back to Home</button> </a>
+</div>
+
+</head>
+</html>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
